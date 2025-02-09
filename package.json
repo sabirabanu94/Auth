@@ -1,13 +1,33 @@
 {
-  "dependencies": {
-    "bcrypt": "^5.1.1",
-    "cookie-parser": "^1.4.7",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.10.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.9"
-  }
+    "dependencies": {
+        "bcrypt": "^5.1.1",
+        "cookie-parser": "^1.4.7",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^8.10.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.9"
+    },
+    "name": "auth",
+    "version": "1.0.0",
+    "description": "This project implements user authentication and authorization using Bearer tokens in a Node.js application with Express.js, Mongoose, and JWT. The application is structured with the MVC pattern and includes API documentation in Postman.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sabirabanu94/Auth.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sabirabanu94/Auth/issues"
+    },
+    "homepage": "https://github.com/sabirabanu94/Auth#readme"
 }
